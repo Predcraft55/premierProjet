@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="">
+    
+    <fieldset>
+    <!-- LES INPUTS -->
+    <!-- Les inputs text permettent d'ecrire du texte cours -->
+    <!-- Pour l'accessibilité, la propriété for du label doit étre toujours lié avec son input dans la propriété name  -->
+        <label for="Premier">Mon premier Input</label>
+        <input type="text" name="Premier" placeholder="Ecrivez de texte">
+    <!-- La propriété step permet l'incrementation comme si dessous de 5 en 5 -->
+        <label for="number">Mon Input Number</label>
+        <input type="Number" name="number" min="5" max="100" step="5"> 
+    <!--  -->
+        <label for="secret">Mon input secret</label>
+        <input type="password" name="secret" placeholder="Ecriver votre mot de passe" minlength="6" maxlength="20">    
+        <label for="date">Ma date</label>
+        <input type="date" name="date" id="">
+        <label for="range">Mon input range</label>
+        <input type="range" name="range" id="">
+    <!-- Les couleur retourné avec cette input son en héxadecimales -->
+        <label for="color"></label>
+        <input type="color" name="color" id="">
+    
+        <input type="checkbox" name="checkbox" id="">
+        <label for="checkbox">Mon input checkbox</label>
+    <!-- Permet un seul choix mais le name doit etre le meme -->
+        <div>
+            <input type="radio" name="radio" value="homme">
+            <label for="radio">Homme</label>
+            <input type="radio" name="radio" value="femme">
+            <label for="radio">Femme</label>
+        </div>
+    <!-- Permet la validation du formulaire -->
+        <input type="submit" value="Valider">
+
+        <label for="mylife">Raconte ta life</label>
+        <textarea name="mylife" id="" cols="30" rows="20" placeholder="Raconte ta vie"></textarea>
+
+        <label for="select">Ma selection de bagnole</label>
+        <select name="select">
+            <option value="dacia">Dacia</option>
+            <option value="lada">Lada</option>
+            <option value="merco">Merco</option>
+            <option value="multipla">Multipla</option>
+        </select>
+
+    </fieldset>
+
+
+
+</form>
+
+    
+</body>
+</html>

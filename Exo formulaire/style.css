@@ -1,0 +1,42 @@
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+*{background-color: rgb(122, 122, 122);}
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-top: 15px;
+}
+
+/* Voici un exemple de selecteur  */
+input[type="checkbox"],
+input[type="checkbox"] + label,
+input[type="radio"],
+input[type="radio"] + label {
+    display: inline;
+    margin-top: 15px;
+}
+
+/* On sible les label et les input dans un li */
+li input, li label{
+    
+    display: inline;
+   
+}
+
+
+
+
+

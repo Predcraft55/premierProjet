@@ -1,0 +1,38 @@
+h2{
+    background-color: lightblue;
+    color: rgb(2, 107, 194);
+}
+
+.bleu{
+    color: rgb(61, 185, 226);
+}
+
+.bleu-fonce{
+    color: rgb(52, 89, 212);
+}
+
+.gras{
+    /* Ici on met la police en gras */
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tr:nth-child(2n){
+    /* Avec cette pseudo class on colorie le fond de tous les 2 tr */
+    background-color: gray;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+div {
+    margin-top: 2px;
+}
+
+.dog {
+    float: inline-end;
+}
